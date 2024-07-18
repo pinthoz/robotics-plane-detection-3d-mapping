@@ -1,4 +1,4 @@
- RANSAC-Based Plane Detection: Improving Precision in 3D Mapping
+## RANSAC-Based Plane Detection: Improving Precision in 3D Mapping
 
 This project is a part of the course "Introdução à Robótica Inteligente" at FCUP. The goal of this project is to improve the precision of 3D mapping by using RANSAC-based plane detection.
 The project includes the ```main.py``` file that contains the code for the performance metrics that run the RANSAC algorithm and the plane detection algorithm. It also includes a ```generate_map_matrix.py``` file that generates a map matrix with the ground truth values for the plane detection algorithm and the map for the Webots simulation, a ```scan_pcd.py``` file that generates a point cloud from the Webots simulation, a ```Ransac.py``` file that contains the RANSAC algorithm, and a ```plane.py``` that was taken from pyransac 3d library, but also contains new code written by us.
